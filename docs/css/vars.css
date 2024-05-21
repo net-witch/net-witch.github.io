@@ -1,0 +1,32 @@
+:root {
+  --xs: 320px;
+  --sm: 540px;
+  --md: 900px;
+  --lg: 1100px;
+  --xl: 1448px;
+
+  --orange: #FD6F00;
+  --orange-hover: #E46400;
+  --orange-active: #CA5900;
+  --white: #DFDFDF;
+  --white-hover: #DFDFDF;
+  --white-active: #C6C6C6;
+  --white-dark: #BABABA;
+  --white-dark-hover: #959595;
+  --white-dark-active: #707070;
+  --white-darker: #575757;
+  --focus-color: #008FFC;
+  --white-transparent-01: #ffffff0A;
+  --white-transparent-02: #ffffff14;
+
+  --logo-gr: linear-gradient(89deg, #FA6E00 0%, #E60026 100%);
+  --btn-gr: linear-gradient(94.36deg, var(--orange) 3.1%, #E46400 94.54%);
+  --btn-gr-hover: linear-gradient(94.36deg, var(--orange-hover) 3.1%, #E46400 94.54%);
+  --btn-gr-active: linear-gradient(94.36deg, var(--orange-active) 3.1%, #E46400 94.54%);
+  --hero-gr: linear-gradient(90.48deg, #984300 0.34%, var(--orange) 42.06%, #CA5900 90.34%);
+
+  --font-logo: font-family: "K2D", sans-serif;
+  --font-text: "Lato", sans-serif;
+
+  --transition: 155ms;
+}

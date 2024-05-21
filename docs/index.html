@@ -1,0 +1,836 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="personal website, portfolio, CV" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal website</title>
+    <link rel="stylesheet" href="css/vars.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="js/main.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <section id="hero">
+      <!-- Should this nav be here? -->
+      <header>
+        <div class="foldable-nav">
+          <button onclick="onHamburgerButtonClick()">
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 -0.5 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.5 7.75C5.08579 7.75 4.75 8.08579 4.75 8.5C4.75 8.91421 5.08579 9.25 5.5 9.25V7.75ZM19.5 9.25C19.9142 9.25 20.25 8.91421 20.25 8.5C20.25 8.08579 19.9142 7.75 19.5 7.75V9.25ZM5.5 11.75C5.08579 11.75 4.75 12.0858 4.75 12.5C4.75 12.9142 5.08579 13.25 5.5 13.25V11.75ZM17.5 13.25C17.9142 13.25 18.25 12.9142 18.25 12.5C18.25 12.0858 17.9142 11.75 17.5 11.75V13.25ZM5.5 15.75C5.08579 15.75 4.75 16.0858 4.75 16.5C4.75 16.9142 5.08579 17.25 5.5 17.25V15.75ZM12.5 17.25C12.9142 17.25 13.25 16.9142 13.25 16.5C13.25 16.0858 12.9142 15.75 12.5 15.75V17.25ZM5.5 9.25H19.5V7.75H5.5V9.25ZM5.5 13.25H17.5V11.75H5.5V13.25ZM5.5 17.25H12.5V15.75H5.5V17.25Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <nav id="foldable-nav-list">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact me</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <span class="logo">LOGO</span>
+        </div>
+        <nav class="wide-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ul>
+        </nav>
+        <button class="pr-btn">Hire Me</button>
+      </header>
+      <div class="hero-contents">
+        <div class="hero-text hr">
+          <svg
+            id="blob"
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="currentColor"
+              d="M36.7,-60.8C45.8,-58.4,50.2,-44.9,49.4,-33C48.7,-21,42.8,-10.5,44.1,0.8C45.4,12,53.9,24,53.8,34.5C53.7,44.9,44.9,53.8,34.5,56.6C24.1,59.5,12.1,56.2,-1,57.9C-14.1,59.7,-28.2,66.5,-42.1,65.7C-56,64.9,-69.7,56.5,-69.5,44.3C-69.3,32.1,-55.2,16,-53.4,1C-51.7,-14,-62.2,-28,-58.4,-33.2C-54.6,-38.4,-36.3,-34.8,-24.2,-35.5C-12,-36.2,-6,-41.1,3.9,-47.9C13.8,-54.7,27.6,-63.2,36.7,-60.8Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+          <div class="hr">
+            <div class="hr">
+              <div class="hr">
+                <div class="hr">
+                  <span>Hi I am</span>
+                  <h1>Mahmood Fazile</h1>
+                </div>
+                <h2>UI/UX designer</h2>
+              </div>
+              <ul class="socials-list">
+                <li>
+                  <a href="#">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g
+                        id="Page-1"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="Dribbble-Light-Preview"
+                          transform="translate(-340.000000, -7439.000000)"
+                          fill="currentColor"
+                        >
+                          <g
+                            id="icons"
+                            transform="translate(56.000000, 160.000000)"
+                          >
+                            <path
+                              d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                              id="instagram-[#167]"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM5.14386 17.8201C3.81099 16.2515 3.00683 14.2197 3.00683 12L3.00683 11.9978C6.61307 11.9618 9.57567 11.4838 12.2422 10.5779C12.4668 11.0605 12.6847 11.5534 12.8956 12.0564C12.5555 12.1691 12.221 12.2949 11.8918 12.4335C9.24177 13.5489 7.00538 15.4612 5.14386 17.8201ZM6.60614 19.1967C8.10884 20.3248 9.97636 20.9932 12 20.9932C13.2188 20.9932 14.3809 20.7507 15.4409 20.3114C14.9668 18.0368 14.352 15.907 13.6265 13.9217C13.3003 14.0264 12.9807 14.1451 12.6677 14.2768C10.356 15.2499 8.33843 16.9649 6.60614 19.1967ZM15.5924 13.4765C16.2479 15.3019 16.8129 17.2399 17.267 19.2902C19.048 18.0013 20.338 16.0757 20.8032 13.8473C18.9143 13.3589 17.1821 13.2604 15.5924 13.4765ZM14.8575 11.5662C16.754 11.2412 18.7996 11.3067 20.9917 11.8332C20.9578 9.97415 20.3599 8.25291 19.3619 6.8334C17.6358 8.0531 15.9276 9.06168 14.1111 9.85398C14.3687 10.4121 14.6177 10.9829 14.8575 11.5662ZM11.3457 8.76846C8.99734 9.53429 6.39047 9.94463 3.2312 9.9948C3.85725 7.24565 5.74294 4.97565 8.24906 3.82401C9.34941 5.31262 10.3933 6.96064 11.3457 8.76846ZM13.2302 8.05623C14.8876 7.34152 16.4466 6.43089 18.0282 5.32624C16.4333 3.88469 14.3192 3.00683 12 3.00683C11.4014 3.00683 10.8165 3.06531 10.2506 3.17688C11.3103 4.66337 12.3129 6.28992 13.2302 8.05623Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 -3.5 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g
+                        id="Page-1"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="Dribbble-Light-Preview"
+                          transform="translate(-100.000000, -7482.000000)"
+                          fill="currentColor"
+                        >
+                          <g
+                            id="icons"
+                            transform="translate(56.000000, 160.000000)"
+                          >
+                            <path
+                              d="M56.981,7324.11726 L62.069,7324.11726 L62.069,7322.65997 L56.981,7322.65997 L56.981,7324.11726 Z M59.489,7327.04322 C58.354,7327.04322 57.492,7327.74656 57.409,7329.04584 L61.481,7329.04584 C61.205,7327.50385 60.52,7327.04322 59.489,7327.04322 L59.489,7327.04322 Z M59.648,7333.06968 C60.696,7333.06968 61.465,7332.40764 61.622,7331.84992 L63.826,7331.84992 C63.196,7333.86701 61.895,7335 59.559,7335 C56.578,7335 54.905,7332.87964 54.905,7330.06626 C54.905,7323.44077 64.465,7323.20323 63.985,7330.68491 L57.409,7330.68491 C57.473,7332.20418 58.1,7333.06968 59.648,7333.06968 L59.648,7333.06968 Z M49.73,7332.77842 C50.933,7332.77842 51.775,7332.31572 51.775,7331.06705 C51.775,7329.77191 51.031,7329.21006 49.782,7329.21006 L46.768,7329.21006 L46.768,7332.77842 L49.73,7332.77842 Z M49.571,7327.26218 C50.572,7327.26218 51.263,7326.79638 51.263,7325.71399 C51.263,7324.57377 50.459,7324.22158 49.36,7324.22158 L46.768,7324.22158 L46.768,7327.26218 L49.571,7327.26218 L49.571,7327.26218 Z M49.924,7322 C52.295,7322 53.943,7322.7839 53.943,7325.22237 C53.943,7326.42973 53.458,7327.32931 52.233,7327.93557 C53.801,7328.40137 54.543,7329.62422 54.543,7331.23127 C54.543,7333.78232 52.52,7335 50.1,7335 L44,7335 L44,7322 L49.924,7322 Z"
+                              id="behance-[#163]"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hero-action">
+              <button class="pr-btn">Hire Me</button>
+              <button class="sk-btn">Download CV</button>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stats-tile">
+              <span>5+</span>
+              <span>Experiences</span>
+            </div>
+            <div class="hero-stats-tile">
+              <span>20+</span>
+              <span>Project done</span>
+            </div>
+            <div class="hero-stats-tile">
+              <span>80+</span>
+              <span>Happy Clients</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div>
+            <div></div>
+            <img class="photo" src="assets/man.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div>
+        <h2>Services</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
+          felis ligula aliquam
+        </p>
+      </div>
+      <div class="services-tiles">
+        <div>
+          <div>
+            <svg
+              fill="currentColor"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"
+              />
+              <path
+                d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"
+              />
+            </svg>
+            <p>App Design</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+            consectetur
+          </p>
+        </div>
+        <div>
+          <div>
+            <svg
+              fill="currentColor"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"
+              />
+              <path
+                d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"
+              />
+            </svg>
+            <p>App Design</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+            consectetur
+          </p>
+        </div>
+        <div>
+          <div>
+            <svg
+              fill="currentColor"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"
+              />
+              <path
+                d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"
+              />
+            </svg>
+            <p>App Design</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+            consectetur
+          </p>
+        </div>
+        <div>
+          <div>
+            <svg
+              fill="currentColor"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"
+              />
+              <path
+                d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"
+              />
+            </svg>
+            <p>App Design</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+            consectetur
+          </p>
+        </div>
+        <div>
+          <div>
+            <svg
+              fill="currentColor"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"
+              />
+              <path
+                d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"
+              />
+            </svg>
+            <p>App Design</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+            consectetur
+          </p>
+        </div>
+        <div>
+          <div>
+            <svg
+              fill="currentColor"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"
+              />
+              <path
+                d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"
+              />
+            </svg>
+            <p>App Design</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+            consectetur
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div>
+        <h2>About Me</h2>
+        <p>User Interface and User Experience and Also video editing</p>
+      </div>
+      <div class="about-contents">
+        <div>
+          <div class="about-contents-photo">
+            <div></div>
+            <img class="photo" src="assets/man.png" />
+          </div>
+          <div class="about-contents-text">
+            <p>
+              A software engineer, the modern-day architect of digital realms,
+              navigates the ethereal landscapes of code, sculpting intangible
+              structures that shape our technological world. With fingers poised
+              over keyboards like virtuoso pianists, they compose symphonies of
+              logic, their minds a labyrinth of algorithms and solutions.Their
+              canvas is a screen, a vast expanse where lines of code dance in
+              intricate patterns, weaving the fabric of programs and
+              applications. Each keystroke is a brushstroke, crafting intricate
+              architectures and breathing life into innovative designs.In this
+              digital atelier, they don the mantle of problem solvers,
+              confronting bugs and glitches like valiant knights in an
+              ever-evolving quest for perfection. Debugging becomes a noble
+              pursuit, unraveling the mysteries hidden within the tangled webs
+              of code. designs.In this digital atelier.
+            </p>
+            <button class="pr-btn">⬇️ Download CV</button>
+          </div>
+        </div>
+        <div class="about-skills">
+          <div class="figma-progress">
+            <div class="circle">
+              <div class="bar"></div>
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 3H9C7.34315 3 6 4.34315 6 6C6 7.65685 7.34315 9 9 9M12 3V9M12 3H15C16.6569 3 18 4.34315 18 6C18 7.65685 16.6569 9 15 9M12 9H9M12 9H15M12 9V15M9 9C7.34315 9 6 10.3431 6 12C6 13.6569 7.34315 15 9 15M15 9C16.6569 9 18 10.3431 18 12C18 13.6569 16.6569 15 15 15C13.3431 15 12 13.6569 12 12C12 10.3431 13.3431 9 15 9ZM12 15H9M12 15V18C12 19.6569 10.6569 21 9 21C7.34315 21 6 19.6569 6 18C6 16.3431 7.34315 15 9 15"
+                  stroke="#000000"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div>
+              <span>100%</span><br />
+              <span>Figma</span>
+            </div>
+          </div>
+          <div class="adobexd-progress">
+            <div class="circle">
+              <div class="bar"></div>
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M13,16.12H11.1l-1.83-3-1.82,3H5.66l2.61-4L5.83,8.27H7.67L9.36,11.1,11,8.27h1.79l-2.46,3.9Z"
+                  />
+                  <path
+                    d="M14.65,16.23A1.94,1.94,0,0,1,13,15.41a3.81,3.81,0,0,1-.6-2.28,3.79,3.79,0,0,1,.61-2.3A2,2,0,0,1,14.7,10a2,2,0,0,1,1.73.88h.05a6.94,6.94,0,0,1-.12-1.2V7.77H18v8.35H16.74l-.31-.77h-.07A1.88,1.88,0,0,1,14.65,16.23Zm.58-1.3a1.1,1.1,0,0,0,.92-.37,2.15,2.15,0,0,0,.32-1.24v-.18a2.43,2.43,0,0,0-.3-1.38,1.11,1.11,0,0,0-1-.42,1,1,0,0,0-.85.46,2.52,2.52,0,0,0-.3,1.36,2.34,2.34,0,0,0,.3,1.32A1,1,0,0,0,15.23,14.93Z"
+                  />
+                </g>
+                <path
+                  d="M19,5V19H5V5H19m0-2H5A2,2,0,0,0,3,5V19a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V5a2,2,0,0,0-2-2Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <span>100%</span><br />
+              <span>Adobe XD</span>
+            </div>
+          </div>
+          <div class="adobeph-progress">
+            <div class="circle">
+              <div class="bar"></div>
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19,5V19H5V5H19m0-2H5A2,2,0,0,0,3,5V19a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V5a2,2,0,0,0-2-2Z"
+                />
+
+                <g>
+                  <path
+                    d="M12.11,10.47a2.41,2.41,0,0,1-.8,1.94,3.36,3.36,0,0,1-2.25.67H8.35v2.79H6.68V8H9.19a3.32,3.32,0,0,1,2.17.62A2.22,2.22,0,0,1,12.11,10.47ZM8.35,11.72h.54A1.82,1.82,0,0,0,10,11.41a1,1,0,0,0,.38-.88,1.08,1.08,0,0,0-.32-.87,1.51,1.51,0,0,0-1-.28H8.35Z"
+                  />
+                  <path
+                    d="M17.32,14.09a1.68,1.68,0,0,1-.64,1.41,3.2,3.2,0,0,1-1.92.48,6,6,0,0,1-1.12-.09,4,4,0,0,1-.87-.26V14.28a6.52,6.52,0,0,0,1,.36,4.58,4.58,0,0,0,1,.14c.59,0,.89-.17.89-.51a.44.44,0,0,0-.12-.32,1.5,1.5,0,0,0-.4-.27l-.78-.36a4.61,4.61,0,0,1-1-.54,1.55,1.55,0,0,1-.47-.56,1.89,1.89,0,0,1-.15-.79,1.44,1.44,0,0,1,.62-1.24,3.05,3.05,0,0,1,1.76-.44,4.89,4.89,0,0,1,2.11.48l-.49,1.18a8.28,8.28,0,0,0-.84-.32,2.72,2.72,0,0,0-.8-.12c-.49,0-.73.13-.73.39a.46.46,0,0,0,.24.38,5.56,5.56,0,0,0,1,.48,5,5,0,0,1,1,.53,1.59,1.59,0,0,1,.48.57A1.68,1.68,0,0,1,17.32,14.09Z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div>
+              <span>85%</span><br />
+              <span>Adobe Photoshop</span>
+            </div>
+          </div>
+          <div class="adobeai-progress">
+            <div class="circle">
+              <div class="bar"></div>
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19,5V19H5V5H19m0-2H5A2,2,0,0,0,3,5V19a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V5a2,2,0,0,0-2-2Z"
+                />
+                <g>
+                  <path
+                    d="M12.3,16.18l-.57-1.87H8.86l-.57,1.87H6.5L9.27,8.29h2l2.78,7.89Zm-1-3.27c-.53-1.69-.82-2.65-.89-2.87s-.11-.4-.14-.53c-.12.46-.46,1.6-1,3.4Z"
+                  />
+                  <path
+                    d="M14.88,8.62c0-.53.3-.8.89-.8s.89.27.89.8a.76.76,0,0,1-.22.59.9.9,0,0,1-.67.22C15.18,9.43,14.88,9.16,14.88,8.62Zm1.71,7.56H15v-6h1.64Z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div>
+              <span>60%</span><br />
+              <span>Adobe Illustrator</span>
+            </div>
+          </div>
+          <div class="adobepr-progress">
+            <div class="circle">
+              <div class="bar"></div>
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19,5V19H5V5H19m0-2H5A2,2,0,0,0,3,5V19a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V5a2,2,0,0,0-2-2Z"
+                />
+
+                <g>
+                  <path
+                    d="M12.47,10.52a2.42,2.42,0,0,1-.79,1.94,3.39,3.39,0,0,1-2.26.67H8.71v2.8H7V8.07H9.55a3.32,3.32,0,0,1,2.17.62A2.23,2.23,0,0,1,12.47,10.52ZM8.71,11.77h.55a1.86,1.86,0,0,0,1.15-.3,1.09,1.09,0,0,0,.38-.89,1.08,1.08,0,0,0-.32-.86,1.49,1.49,0,0,0-1-.28H8.71Z"
+                  />
+                  <path
+                    d="M16.4,9.81a2.23,2.23,0,0,1,.56,0l-.13,1.53a2.14,2.14,0,0,0-.48-.05,1.73,1.73,0,0,0-1.22.4,1.48,1.48,0,0,0-.44,1.13v3.06H13.05v-6h1.24l.24,1h.08a2.19,2.19,0,0,1,.76-.81A1.83,1.83,0,0,1,16.4,9.81Z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div>
+              <span>70%</span><br />
+              <span>Adobe Premiere</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div>
+        <h2>Portfolio</h2>
+        <div>
+          <button class="pr-btn">All</button>
+          <button class="sc-btn">Website Design</button>
+          <button class="sc-btn">App Mobile Design</button>
+          <button class="sc-btn">App Desktop</button>
+          <button class="sc-btn">Branding</button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img src="assets/images/p1.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p2.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p3.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p3.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p2.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p3.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p1.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p3.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/p2.png" width="415px" height="415px" />
+          <div>
+            <span>Project name</span>
+            <span>Category</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div>
+        <h2>Contact me</h2>
+        <p>Cultivating Connections: Reach Out and Connect with Me</p>
+      </div>
+      <div>
+        <form action="" method="post">
+          <div>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              required
+              placeholder="Name"
+            />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="Email"
+            />
+            <input
+              id="phone"
+              name="phone"
+              type="phone"
+              required
+              placeholder="Phone Number"
+            />
+            <select name="services" id="services" required>
+              <option value="" disabled selected hidden>
+                Service of Interest
+              </option>
+              <option value="website-design">Website Design</option>
+              <option value="mobile-app-design">Mobile App Design</option>
+              <option value="desktop-design">Desktop Design</option>
+              <option value="branding">Branding</option>
+            </select>
+            <input
+              id="timeline"
+              name="timeline"
+              type="number"
+              required
+              placeholder="Timeline"
+            />
+            <textarea
+              id="timeline"
+              name="timeline"
+              type="text"
+              required
+              rows="5"
+              placeholder="Project Details..."
+            >
+            </textarea>
+            <div>
+              <button class="sk-btn">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <span class="logo">LOGO</span>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="socials-list">
+          <li>
+            <a href="#">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 20 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-340.000000, -7439.000000)"
+                    fill="currentColor"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                        id="instagram-[#167]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM5.14386 17.8201C3.81099 16.2515 3.00683 14.2197 3.00683 12L3.00683 11.9978C6.61307 11.9618 9.57567 11.4838 12.2422 10.5779C12.4668 11.0605 12.6847 11.5534 12.8956 12.0564C12.5555 12.1691 12.221 12.2949 11.8918 12.4335C9.24177 13.5489 7.00538 15.4612 5.14386 17.8201ZM6.60614 19.1967C8.10884 20.3248 9.97636 20.9932 12 20.9932C13.2188 20.9932 14.3809 20.7507 15.4409 20.3114C14.9668 18.0368 14.352 15.907 13.6265 13.9217C13.3003 14.0264 12.9807 14.1451 12.6677 14.2768C10.356 15.2499 8.33843 16.9649 6.60614 19.1967ZM15.5924 13.4765C16.2479 15.3019 16.8129 17.2399 17.267 19.2902C19.048 18.0013 20.338 16.0757 20.8032 13.8473C18.9143 13.3589 17.1821 13.2604 15.5924 13.4765ZM14.8575 11.5662C16.754 11.2412 18.7996 11.3067 20.9917 11.8332C20.9578 9.97415 20.3599 8.25291 19.3619 6.8334C17.6358 8.0531 15.9276 9.06168 14.1111 9.85398C14.3687 10.4121 14.6177 10.9829 14.8575 11.5662ZM11.3457 8.76846C8.99734 9.53429 6.39047 9.94463 3.2312 9.9948C3.85725 7.24565 5.74294 4.97565 8.24906 3.82401C9.34941 5.31262 10.3933 6.96064 11.3457 8.76846ZM13.2302 8.05623C14.8876 7.34152 16.4466 6.43089 18.0282 5.32624C16.4333 3.88469 14.3192 3.00683 12 3.00683C11.4014 3.00683 10.8165 3.06531 10.2506 3.17688C11.3103 4.66337 12.3129 6.28992 13.2302 8.05623Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 -3.5 20 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-100.000000, -7482.000000)"
+                    fill="currentColor"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M56.981,7324.11726 L62.069,7324.11726 L62.069,7322.65997 L56.981,7322.65997 L56.981,7324.11726 Z M59.489,7327.04322 C58.354,7327.04322 57.492,7327.74656 57.409,7329.04584 L61.481,7329.04584 C61.205,7327.50385 60.52,7327.04322 59.489,7327.04322 L59.489,7327.04322 Z M59.648,7333.06968 C60.696,7333.06968 61.465,7332.40764 61.622,7331.84992 L63.826,7331.84992 C63.196,7333.86701 61.895,7335 59.559,7335 C56.578,7335 54.905,7332.87964 54.905,7330.06626 C54.905,7323.44077 64.465,7323.20323 63.985,7330.68491 L57.409,7330.68491 C57.473,7332.20418 58.1,7333.06968 59.648,7333.06968 L59.648,7333.06968 Z M49.73,7332.77842 C50.933,7332.77842 51.775,7332.31572 51.775,7331.06705 C51.775,7329.77191 51.031,7329.21006 49.782,7329.21006 L46.768,7329.21006 L46.768,7332.77842 L49.73,7332.77842 Z M49.571,7327.26218 C50.572,7327.26218 51.263,7326.79638 51.263,7325.71399 C51.263,7324.57377 50.459,7324.22158 49.36,7324.22158 L46.768,7324.22158 L46.768,7327.26218 L49.571,7327.26218 L49.571,7327.26218 Z M49.924,7322 C52.295,7322 53.943,7322.7839 53.943,7325.22237 C53.943,7326.42973 53.458,7327.32931 52.233,7327.93557 C53.801,7328.40137 54.543,7329.62422 54.543,7331.23127 C54.543,7333.78232 52.52,7335 50.1,7335 L44,7335 L44,7322 L49.924,7322 Z"
+                        id="behance-[#163]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <div>
+          <span class="footer-email">📧 Mahmood.fazile7005@gmail.com</span>
+          <span class="footer-phone">📞 +93 729 107 005</span>
+        </div>
+      </div>
+      <div>
+        <p>Designed by @mahmood.fazile UI/UX designer</p>
+      </div>
+    </footer>
+  </body>
+</html>
