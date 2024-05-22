@@ -55,7 +55,7 @@ header {
   align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   body {
     padding: 33px 0 0;
   }
@@ -83,7 +83,13 @@ section {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1100px) {
+  section {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   section {
     padding: 0 23px;
     margin-bottom: 100px;
@@ -154,7 +160,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   footer {
     gap: 30px;
     padding: 40px 24px 24px;
@@ -252,7 +258,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   button {
     padding: 8px 16px 8px 16px;
     border-radius: 6px;
@@ -274,7 +280,7 @@ button {
   font-style: normal;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #hero .logo {
     font-size: 24px;
   }
@@ -329,7 +335,7 @@ button {
   gap: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #hero {
     gap: 60px;
   }
@@ -348,7 +354,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .hero-contents {
     flex-direction: column;
     gap: 24px;
@@ -407,7 +413,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .hero-text {
     gap: 50px;
 
@@ -486,7 +492,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .socials-list {
     justify-content: center;
   }
@@ -520,7 +526,25 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1100px) {
+  .hero-photo {
+    & > div:first-child {
+      width: 30vw;
+    }
+
+    & > div:first-child > div {
+      width: 30vw;
+      height: 30vw;
+      transform: translateY(25%);
+    }
+    
+    & img {
+      width: 30vw; 
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
   .hero-photo {
     height: 484px;
 
@@ -546,7 +570,7 @@ button {
   gap: 24px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .hero-action {
     justify-content: center;
   }
@@ -592,7 +616,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .hero-stats {
     padding: 16px;
     gap: 14px;
@@ -669,7 +693,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .wide-nav {
     display: none;
   }
@@ -731,7 +755,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .services-tiles {
     display: grid;
     gap: 24px 16px;
@@ -775,7 +799,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #about {
     padding: 0 24px;
     gap: 70px;
@@ -795,7 +819,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .about-contents {
     gap: 70px;
 
@@ -828,7 +852,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .about-contents-photo {
     width: 395px;
     height: 565px;
@@ -854,7 +878,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .about-contents-text {
     max-width: 100%;
     display: flex;
@@ -910,7 +934,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .about-skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -940,7 +964,7 @@ button {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #about .about-skills > div > div:first-child {
     --diameter: 90px;
   }
@@ -969,7 +993,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #about {
     svg {
       margin: calc((90px - 60px)/2);
@@ -1057,7 +1081,7 @@ button {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #portfolio {
     & > div:first-child > div {
       gap: 14px;
@@ -1138,7 +1162,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   #contact {
     gap: 40px;
     padding: 0 24px;
